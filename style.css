@@ -477,6 +477,8 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    width: 30px;
+    height: 30px;
 }
 
 .icon-lg {
