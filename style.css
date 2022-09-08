@@ -653,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #303030!important;
+    color: #303030;
 }
 
 .container {
@@ -680,6 +680,22 @@ a {
 
 p {
     font-size: 11px;
+}
+
+.description{
+    font-size: 21px;
+    color: #636363;
+}
+
+.citation{
+    font-size: 20px;
+    font-weight:light;
+}
+
+.texte-citation{
+    
+    font-style: italic;
+    color: #636363;
 }
 
 .tight-width-whitespace {
