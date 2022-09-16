@@ -1,5 +1,20 @@
 AddOutputFilterByType DEFLATE text/text application/xml application/xhtml+xml text/html text/javascript text/css text/plain
 AddType image/webp
+AddType img/1.webp
+AddType img/agence-la-panthere.webp
+AddType fonts/et-line.woff
+AddType img/2.webp
+AddType img/image-de-presentation.webp
+AddType img/4.webp
+AddType img/logo.webp
+AddType img/3.webp
+AddType js/gmaps.min.js
+AddType img/agence-la-panthere-monochrome.svg
+AddType js/jquery.touchSwipe.js
+AddType /Optimisez-un-site-web-existant/style.css
+AddType js/blocs.min.js
+AddType css/et-line.css
+AddType img/lines-h2-bg.webp
 
 <Files *.webp>
     Header set Vary "Accept-Encoding"
