@@ -1,0 +1,8 @@
+AddOutputFilterByType DEFLATE text/text application/xml application/xhtml+xml text/html text/javascript text/css text/plain
+AddType image/webp
+
+<Files *.webp>
+    Header set Vary "Accept-Encoding"
+    AddType "image/webp" .webp
+    AddEncoding webp .webp
+</Files>
