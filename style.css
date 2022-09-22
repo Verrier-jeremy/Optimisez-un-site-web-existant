@@ -6,11 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+body:focus-visible{
+    outline: solid black;
+}
 
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
+}
+a:focus-visible,
+button:focus-visible {
+    outline: solid black;
 }
 
 a:hover {
